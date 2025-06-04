@@ -11,7 +11,7 @@ function Home() {
             <div className="absolute -inset-1 bg-[#bc9c4e]/20 rounded-lg blur-lg group-hover:bg-[#bc9c4e]/30 transition-all duration-300"></div>
             <img 
               src={pic}
-              alt="Savy Lux Brand" 
+              alt="Savy Luxe Brand" 
               className="relative rounded-lg w-full h-[500px] object-cover transform group-hover:scale-[1.02] transition-transform duration-300"
             />
           </div>
@@ -22,7 +22,7 @@ function Home() {
           {/* Welcome Message - Mobile Only */}
           <div className="md:hidden w-full text-center mb-4">
             <h1 className="text-4xl font-bold text-[#bc9c4e] mb-4">
-              Welcome to Savy Lux
+              Welcome to Savy Luxe
             </h1>
             <p className="text-white/80 text-lg mb-4">
               Where luxury meets innovation
@@ -33,7 +33,7 @@ function Home() {
                 <div className="absolute -inset-1 bg-[#bc9c4e]/20 rounded-lg blur-lg group-hover:bg-[#bc9c4e]/30 transition-all duration-300"></div>
                 <img 
                   src={pic}
-                  alt="Savy Lux Brand" 
+                  alt="Savy Luxe Brand" 
                   className="relative rounded-lg w-full h-[220px] object-cover transform group-hover:scale-[1.02] transition-transform duration-300"
                 />
               </div>
@@ -41,7 +41,7 @@ function Home() {
           </div>
           <div className="bg-black/50 backdrop-blur-sm rounded-lg p-6 md:p-8 transform hover:scale-[1.02] transition-transform duration-300">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-[#bc9c4e] hidden md:block">
-              Welcome to Savy Lux
+              Welcome to Savy Luxe
             </h1>
             <p className="text-lg md:text-xl text-white/80 mb-8 leading-relaxed">
               Where luxury meets innovation. We are more than just a brand – we are a lifestyle. Creating exclusive experiences through our own products and carefully curated selections.
