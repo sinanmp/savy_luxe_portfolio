@@ -10,14 +10,15 @@ import 'aos/dist/aos.css';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 1000,
+      once: true,
     });
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white">
+    <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white overflow-x-hidden">
       <Header />
-      <main className="">
+      <main>
         <Home />
         <About />
         <Projects />
